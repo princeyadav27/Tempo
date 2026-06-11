@@ -48,7 +48,7 @@ No accounts, no servers — your data never leaves the browser:
 No build tools required.
 
 ```bash
-git clone https://github.com/<your-username>/tempo.git
+git clone https://github.com/princeyadav27/tempo
 cd tempo
 ```
 
