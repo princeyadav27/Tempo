@@ -59,7 +59,7 @@
       radial-gradient(1200px 700px at 50% -10%, var(--bg1), var(--bg2) 75%);
     color:var(--label);
     display:flex; align-items:center; justify-content:center;
-    min-height:100vh; padding:28px 16px 80px;
+    min-height:100vh; padding:16px 16px 20px;
     overflow-x:hidden;
     user-select:none;
     transition: background .6s;
@@ -78,7 +78,7 @@
     box-shadow:inset 0 0 220px rgba(0,0,0,.75);
   }
 
-  .app{position:relative; z-index:1; width:min(440px,100%); display:flex; flex-direction:column; align-items:center; gap:22px;}
+  .app{position:relative; z-index:1; width:min(400px,100%); display:flex; flex-direction:column; align-items:center; gap:18px;}
 
   /* ============ BRAND ============ */
   .brand{display:flex; flex-direction:column; align-items:center; gap:2px;}
@@ -113,7 +113,7 @@
   .modes button:active{transform:translateY(1px);}
 
   /* ============ THE CLOCK ============ */
-  .clock-wrap{position:relative; width:min(340px,88vw); aspect-ratio:1; filter:drop-shadow(0 26px 30px rgba(0,0,0,.6));}
+  .clock-wrap{position:relative; width:min(300px,88vw); aspect-ratio:1; filter:drop-shadow(0 26px 30px rgba(0,0,0,.6));}
   .bezel{
     position:absolute; inset:0; border-radius:50%;
     background:
@@ -156,9 +156,9 @@
   }
 
   /* ============ START CROWN BUTTON ============ */
-  .crown-area{display:flex; align-items:center; gap:26px; margin-top:-4px;}
+  .crown-area{display:flex; align-items:center; gap:20px; margin-top:-4px;}
   .start-btn{
-    position:relative; width:92px; height:92px; border-radius:50%;
+    position:relative; width:80px; height:80px; border-radius:50%;
     border:0; cursor:pointer; outline:none;
     background:
       radial-gradient(circle at 32% 28%, var(--bezel-hi), var(--bezel-1) 30%, var(--bezel-2) 58%, var(--bezel-3) 82%, var(--bezel-4));
@@ -192,7 +192,7 @@
   .start-btn.running .cap{color:var(--wedge-deep);}
 
   .side-btn{
-    width:52px; height:52px; border-radius:50%; border:0; cursor:pointer;
+    width:46px; height:46px; border-radius:50%; border:0; cursor:pointer;
     background:radial-gradient(circle at 34% 28%, var(--btn1), var(--btn2) 55%, var(--btn3));
     box-shadow: 0 5px 9px rgba(0,0,0,.55), inset 0 1px 1px rgba(255,255,255,.8), inset 0 -3px 5px rgba(0,0,0,.3);
     display:flex; align-items:center; justify-content:center;
@@ -204,7 +204,7 @@
 
   /* ============ BRASS PLAQUE / LCD ============ */
   .plaque{
-    width:100%; max-width:340px;
+    width:100%; max-width:300px;
     background:linear-gradient(180deg, var(--plate1), var(--plate2));
     border-radius:14px; padding:14px 18px;
     box-shadow: 0 10px 20px rgba(0,0,0,.5), inset 0 1px 0 rgba(255,255,255,.1), inset 0 -2px 5px rgba(0,0,0,.6);
@@ -231,13 +231,13 @@
 
   /* ============ FOCUS PURITY GAUGE ============ */
   .gauge-card{
-    width:100%; max-width:340px;
+    width:100%; max-width:300px;
     background:linear-gradient(180deg, var(--plate1), var(--plate2));
     border-radius:14px; padding:8px 18px 6px;
     box-shadow: 0 10px 20px rgba(0,0,0,.5), inset 0 1px 0 rgba(255,255,255,.1), inset 0 -2px 5px rgba(0,0,0,.6);
     display:flex; align-items:center; justify-content:center; gap:20px;
   }
-  .gauge-card svg{width:128px; height:76px; overflow:visible;}
+  .gauge-card svg{width:112px; height:67px; overflow:visible;}
   .gauge-meta{display:flex; flex-direction:column; gap:3px; align-items:flex-start;}
   .gauge-meta b{font-size:21px; color:var(--accent); font-variant-numeric:tabular-nums; text-shadow:0 1px 0 rgba(0,0,0,.8);}
   .gauge-meta span{font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; opacity:.55;}
@@ -245,7 +245,7 @@
 
   /* ============ ADAPTIVE SUGGESTION ============ */
   .suggest{
-    width:100%; max-width:340px; display:flex; align-items:center; gap:10px;
+    width:100%; max-width:300px; display:flex; align-items:center; gap:10px;
     background:linear-gradient(180deg, var(--plate1), var(--plate2));
     border:1px solid rgba(231,194,94,.28);
     border-radius:12px; padding:10px 12px;
@@ -281,10 +281,10 @@
 
   /* ============ THEME TRAY ============ */
   .tray{
-    width:100%; max-width:340px; display:flex; justify-content:center; gap:13px; padding:4px 0;
+    width:100%; max-width:300px; display:flex; justify-content:center; gap:10px; padding:4px 0;
   }
   .swatch{
-    position:relative; width:44px; height:44px; border-radius:50%; cursor:pointer; border:0;
+    position:relative; width:40px; height:40px; border-radius:50%; cursor:pointer; border:0;
     box-shadow: 0 4px 8px rgba(0,0,0,.55), inset 0 1px 1px rgba(255,255,255,.5), inset 0 -2px 4px rgba(0,0,0,.4);
     transition:transform .15s;
   }
