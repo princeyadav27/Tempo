@@ -4,6 +4,7 @@
 
 TEMPO combines the proven Pomodoro technique with tactile, nostalgic design to make focus sessions feel deliberate and rewarding rather than sterile. Built as a single-page web app with **zero dependencies, zero build step, and zero network calls** — everything runs and stays on your device.
 
+
 ---
 
 ## ✨ Features
@@ -101,17 +102,6 @@ tempo/
 - **Persistence**: namespaced `localStorage` (`tempo_*` keys) with an in-memory fallback for sandboxed iframes
 - **Privacy**: zero network requests; all analytics computed locally
 
-## 🌐 Browser support
-
-Modern Chrome, Edge, Firefox, and Safari. Requires `conic-gradient`, CSS `mask`, Web Audio API, and the Page Visibility API — all standard since ~2020.
-
-## 🗺 Roadmap
-
-- [ ] Drag-to-wind gesture on the dial to set time directly
-- [ ] Per-theme sound packs (brass bell, wooden tock, glass ping)
-- [ ] Desktop notifications when a session completes in a background tab
-- [ ] PWA manifest + service worker for installable offline use
-- [ ] Import/export of focus history (JSON)
 
 ## 🤝 Contributing
 
@@ -120,7 +110,3 @@ Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## 📄 License
 
 [MIT](LICENSE) — free to use, modify, and distribute.
-
----
-
-*Handcrafted timekeeping · Est. MMXXVI*
