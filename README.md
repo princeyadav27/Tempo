@@ -100,7 +100,8 @@ tempo/
 - **Timer accuracy**: wall-clock deltas inside `requestAnimationFrame`, immune to setInterval drift
 - **Audio**: all sounds synthesized with oscillators + gain envelopes (band-passed square waves for ticks, sine partials for the bell)
 - **Persistence**: namespaced `localStorage` (`tempo_*` keys) with an in-memory fallback for sandboxed iframes
-- **Privacy**: zero network requests; all analytics computed locally
+- **Privacy**: zero network requests; all analytics computed locally 
+Built by ai 
 
 
 ## 🤝 Contributing
