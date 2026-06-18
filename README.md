@@ -14,7 +14,7 @@ TEMPO combines the proven Pomodoro technique with tactile, nostalgic design to m
 - Classic **red wedge** countdown (Time Timer style) that drains counter-clockwise
 - Smooth **sweeping seconds needle** — one revolution per minute, like a real movement
 - Glass-dome reflection, recessed cream dial, counter-clockwise minute numerals
-- Tactile **crown start button** that physically depresses on click
+- Tactile **crown start button** that physically depresses on click .
 
 ### 🍅 Pomodoro engine
 - Focus / Short Break / Long Break modes on a machined segmented switch
@@ -101,7 +101,6 @@ tempo/
 - **Audio**: all sounds synthesized with oscillators + gain envelopes (band-passed square waves for ticks, sine partials for the bell)
 - **Persistence**: namespaced `localStorage` (`tempo_*` keys) with an in-memory fallback for sandboxed iframes
 - **Privacy**: zero network requests; all analytics computed locally 
-Built by ai 
 
 
 ## 🤝 Contributing
