@@ -7,7 +7,7 @@ Thanks for your interest in contributing! TEMPO is intentionally simple: **vanil
 1. **No frameworks, no bundlers, no npm dependencies.** The whole app must run by opening `index.html`.
 2. **No network calls.** All features must work fully offline; user data never leaves the device.
 3. **Stay skeuomorphic.** New UI should feel mechanical and tactile — gauges, plaques, machined buttons — not flat dashboards.
-4. **No external assets.** Sounds are synthesized with the Web Audio API; graphics are CSS/SVG.
+4. **No external assets.** Sounds are synthesized with the Web Audio API; graphics are CSS/SVG. llm
 
 ## Project layout
 
@@ -38,5 +38,5 @@ Open an issue with browser/version, steps to reproduce, and what you expected vs
 ## Code style
 
 - ES5-compatible JavaScript (the codebase deliberately avoids transpilation)
-- 2-space indentation
+- 2-space indentation //
 - Descriptive section comments (`/* ---------- section ---------- */`)
