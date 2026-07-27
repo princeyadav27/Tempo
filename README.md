@@ -93,20 +93,3 @@ tempo/
 └── .gitignore
 ```
 
-## 🏗 Architecture notes
-
-- **No frameworks, no dependencies** — vanilla HTML/CSS/JS (ES5-compatible)
-- **Theming** via CSS custom properties on `body[data-theme]`; the SVG dial inherits theme colors through `var()` references
-- **Timer accuracy**: wall-clock deltas inside `requestAnimationFrame`, immune to setInterval drift
-- **Audio**: all sounds synthesized with oscillators + gain envelopes (band-passed square waves for ticks, sine partials for the bell)
-- **Persistence**: namespaced `localStorage` (`tempo_*` keys) with an in-memory fallback for sandboxed iframes
-- **Privacy**: zero network requests; all analytics computed locally 
-
-
-## 🤝 Contributing
-
-Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## 📄 License
-
-[MIT](LICENSE) — free to use, modify, and distribute
