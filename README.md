@@ -44,29 +44,7 @@ No accounts, no servers — your data never leaves the browser
 
 ---
 
-## 🚀 Getting started
 
-No build tools required.
-
-```bash
-git clone https://github.com/princeyadav27/tempo
-cd tempo
-```
-
-Then either:
-
-- **Open directly:** double-click `index.html`, or
-- **Serve locally** (recommended for full localStorage behavior):
-
-```bash
-# Python
-python3 -m http.server 8000
-
-# or Node
-npx serve .
-```
-
-Visit `http://localhost:8000` and press the crown.
 
 ### ⌨️ Keyboard shortcuts
 
