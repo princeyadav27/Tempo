@@ -44,17 +44,6 @@ No accounts, no servers — your data never leaves the browser
 
 ---
 
-
-
-### ⌨️ Keyboard shortcuts
-
-| Key | Action |
-|---|---|
-| `Space` | Start / Pause |
-| `R` | Reset current session |
-
----
-
 ## 📁 Project structure
 
 ```
